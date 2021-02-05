@@ -12,6 +12,8 @@
 
     p {
       margin-bottom: 2rem;
+      text-align: left;
+      line-height: 2rem;
     }
   }
 
@@ -21,6 +23,7 @@
 
     .text-secondary {
       padding-bottom: 1rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -36,11 +39,13 @@
       padding: 0.5rem;
       border-bottom: 5px solid $secondary-color;
 
-      h2, h3 {
+      h2 {
         margin: 0.5rem 0;
       }
-      h6 {
-        margin: 0.3rem 0;
+      ul {
+        list-style: none;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
       }
     }
   }

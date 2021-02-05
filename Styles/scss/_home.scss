@@ -1,9 +1,15 @@
 .home {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 20vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
+
+  img {
+    width: 300px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+  }
 
   &__name {
     font-size: 5rem;
